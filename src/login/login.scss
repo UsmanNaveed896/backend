@@ -1,0 +1,51 @@
+body,html {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.main-login{
+    // background-image: url('../../../Assets/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .main-login-container{
+        max-width: 950px!important;
+    }
+    .vertical-align-center{
+        background-color: #121010;
+        opacity: 90%;
+        padding: 0 20px 0 20px;
+        border-radius: 10px;
+        .login-box.mt-5 {
+            padding-bottom: 55px;
+        }
+        .content-login{
+            padding: 0 20px 0 20px;
+        }
+        h3{
+            color: white;
+        }
+        .form-group{
+            .labels{
+                color: white;
+            }
+        }
+        .login-buttons{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        .login {
+                width: 35%;
+                background-color: #000000;
+                border-radius: 10px;
+                border: 1px solid white;
+            }
+            .login:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}  
+
