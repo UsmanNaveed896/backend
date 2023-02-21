@@ -35,7 +35,7 @@ export default()=>{
         
         <div>
         <MainMap
-                  googleMapURL=" https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBrNmyfqnl8G4J24g3KuFJ-V_c6YMmeibo"
+                  googleMapURL=" https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key="
                  
                   loadingElement={<div style={{ height: `100%` }} />}
                   containerElement={<div style={{ height: `60vh` }} />}
